@@ -1,0 +1,140 @@
+.box{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #a8edea, #fed6e3);
+    background: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
+    display: flex;
+}
+
+.left{
+    width: 300px;
+    height: 100%;
+    border-right: 1px solid #fff;
+}
+
+.userBox{
+    height: 80px;
+    /* background: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #fff;
+}
+.userMetaBox{
+    margin-left: 20px;
+}
+
+.channelBox{
+    height: calc(100vh - 160px);
+    overflow-y: auto;
+}
+
+.channelItem{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+}
+.channelItem h4{
+    margin-left: 10px;
+}
+.channelItemActive{
+    background: #0396FF;
+    color: white;
+}
+
+.optBox{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #fff;
+}
+.optItem{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.optItem span{
+    margin-left: 5px;
+}
+
+.right{
+    flex: 1;
+    height: 100%;
+}
+
+.channelDetail{
+    height: 80px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+.channelDetail h4{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.channelDetail span{
+    color: #666;
+}
+.chatPublicBox{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+ 
+.chatBox{
+    height: calc(100vh - 160px);
+    background: #eee;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.chatItemL{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.chatTxt{
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #fff;
+    margin-top: 10px;
+}
+.chatItemR{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.chatItemR .userMetaBox{
+    margin-left: 0;
+    margin-right: 20px;
+}
+.chatItemR .chatTxt{
+    background: #0396FF;
+    color: white;
+}
+.chatItemM{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.chatItemMTxt{
+    font-size: 14px;  
+    color: #666;
+}
+.channelDetailLeft{
+    display: flex;
+    align-items: center;
+}
